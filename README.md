@@ -403,6 +403,9 @@ screenshot_25_01_2016_18:32:46.jpg
 	shutter -f -e -o '~/Pictures/screenshot_%d_%m_%Y_%T.jpg'
 
 
+![Screenshots](http://i.imgur.com/gZFHwzG.png)
+
+
 
 # F  A  Q
 --------------------
