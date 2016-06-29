@@ -22,9 +22,9 @@
 #
 ##################################################################################################################
 #
-# Current project : Ultimate-Linux-Mint-18
+# Current project : Conky aureola
 #
-# Source 	: 	https://github.com/erikdubois/Ultimate-Linux-Mint-18
+# Source 	: 	https://github.com/erikdubois/Aureola
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
@@ -82,12 +82,25 @@
 # from github
 
 
+# if there is already a folder, delete or else do nothing
 [ -d /tmp/aureola ] && rm -rf "/tmp/aureola" || echo ""
+# download the github in folder /tmp/aureola
 git clone https://github.com/erikdubois/Aureola /tmp/aureola
+# if there is no hidden folder conky then make one
 [ -d $HOME"/./config/conky" ] || mkdir -p $HOME"/.config/conky"
+# if there is not hidden folder aureola then make one
+# my choice to put all config files in a hidden folder out of side
 [ -d "~/.aureola" ] || mkdir -p $HOME/".aureola"
+# copy all config files to this hidden folder
 cp -r /tmp/aureola/* ~/.aureola
 
+# starting the standard conky so you can see it is working
+cp -r ~/.aureola/sys-info-mono-willemo/conky.conf ~/.config/conky
+# making sure conky is started at boot
+cp start-conky.desktop ~/.config/autostart/start-conky.desktop
+
+#starting the conky 
+conky -c ~/.config/conky/conky.conf
 
 
 
