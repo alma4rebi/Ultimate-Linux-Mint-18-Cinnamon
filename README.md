@@ -157,7 +157,23 @@ Older examples
 
 
 
-2. Aurora Conky
+2. Super Ultra Flat Numix Remix
+--------------------------------- 
+
+This icon theme is based on an older one i.e. yltra flat also on github.
+
+This is an exercise in changing the directories from scalable/... to 22x22/...
+
+This one will be updated not the Yltra Flat icon set.
+
+
+
+![Screenshots](http://i.imgur.com/i1FGsR9.jpg)
+
+
+
+
+3. Aurora Conky
 ---------------
 	
 
@@ -208,7 +224,10 @@ This github script is explained more in depth on my website.
 http://erikdubois.be/
 
 
-	
+4. Aureola Conky
+---------------
+
+
 
 3. ZSH and Oh-my-sh
 -----------------------
