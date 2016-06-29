@@ -261,6 +261,8 @@ At https://github.com/erikdubois/Aureola you can check out these conky's.
 -----------------------
 I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script
 
+![Screenshots](http://i.imgur.com/NUc55XO.png)
+
 ./install-zsh-vx.sh
 
 Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. You should change it into ZSH_THEME="random".
