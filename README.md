@@ -53,21 +53,27 @@ Type in the terminal
 <b>Cinnamon</b>
 
 
-The very latest cinnamon version will be <b>NOT</b> be installed on your system.
-This code can be uncommented and it will be installed.
+The very latest cinnamon version can be installed on your system.
+
+Run the script
+
+	- ./latest-cinnamon.sh
+
+The script will add a resource.
 
 	# sudo add-apt-repository -y ppa:gwendal-lebihan-dev/cinnamon-nightly
 	# sudo apt-get update 
 	# sudo apt-get install cinnamon -y
 
-	or run
 
-	- ./install-latest-cinnamon-installation-vx.sh
 
 <b>Nvidia</b>
 
+The last months I have no issues with the drivers coming from Linux. So I do NOT install the Nvidia drivers.
+
 Nvidia drivers will <b>NOT</b> be installed as they are very specific to your hardware. But checkout the code.
-This code can be uncommented.
+
+Copy/paste these lines in a terminal to get the latest nvidia drivers.
 
 	# sudo add-apt-repository -y ppa:xorg-edgers/ppa
 	# sudo apt-get update
@@ -76,6 +82,9 @@ This code can be uncommented.
 Check on Nvidia.com which driver you should use.
 
 Wait for the installation and reboot.
+
+
+
 
 #2 Software installation
 
@@ -112,6 +121,12 @@ This icon theme can be downloaded at  sourceforge.
 
 http://sourceforge.net/projects/sardi/
 
+For ease of installation I use the script
+
+	- icons-sardi-vx.sh
+
+
+
 Some Examples!
 More documentation on http://erikdubois.be
 
@@ -127,7 +142,7 @@ More documentation on http://erikdubois.be
 ![Screenshots](http://i.imgur.com/m8COELQ.png)
 
 
-Older examples
+Older examples on a previous version of Linux Mint.
 
 
 
@@ -164,7 +179,16 @@ This icon theme is based on an older one i.e. yltra flat also on github.
 
 This is an exercise in changing the directories from scalable/... to 22x22/...
 
-This one will be updated not the Yltra Flat icon set.
+Super Ultra Flat Numix Remix will be updated not the Yltra Flat icon set.
+
+
+For ease of installation I use the script
+
+	- icons-super-ultra-flat-numix-vx.sh
+
+Also the older icon set can be installed via
+
+	-icons-yltra-flat-vx.sh
 
 
 
@@ -185,7 +209,7 @@ Installation is described at
 
 http://erikdubois.be/category/linux/aurora-conky/
 
-In this downloadfolder you will find an installationscript as well i.e. Auto_LinuxMint_Rebecca_cinnamon_aurora.sh
+In this downloadfolder you will find an <b>installationscript</b> as well i.e. Auto_LinuxMint_Rebecca_cinnamon_aurora.sh
 
 
 But basically unpack the zip file. Make the hidden folder .conky (if it does not exist yet) and place the folder aurora in there.
@@ -215,8 +239,6 @@ You should arrive at something similar depending on theme and icons choices:
 
 
 
-
-
 Then you take the script apart and you write your own code.
 
 This github script is explained more in depth on my website.
@@ -227,9 +249,13 @@ http://erikdubois.be/
 4. Aureola Conky
 ---------------
 
+This is an exercise in writing conky configurations in lua syntax.
+
+At https://github.com/erikdubois/Aureola you can check out these conky's.
 
 
-3. ZSH and Oh-my-sh
+
+5. ZSH and Oh-my-sh
 -----------------------
 I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script
 
@@ -246,12 +272,16 @@ Each time you start an other terminal you will get a different theme. It will su
 [![Showing zsh](http://i.imgur.com/gzK6c7j.jpg)](https://www.youtube.com/watch?v=T2Y_dp1STos "Showing zsh - Click to Watch!")
 
 
-4. Plank
+6. Plank
 ------------------
-Start plank from the menu. Right-click the plank and choose preferences and put in on top. I choose a transparent theme.
+Start plank from the menu. <b>CTRL + Right-click</b> on the plank and choose preferences
+and put in on top. I choose a transparent theme.
+
 But there are more themes out there if you want.
+
 If you want to autostart this everytime.
-Type in the menu " startup". Start startup applications.
+Type in the menu " startup". Start 'startup applications'.
+
 Add application and choose plank or do it the old way and point to /usr/bin/plank.
 
 ![Screenshots](http://i.imgur.com/arie1IY.jpg)
@@ -263,13 +293,20 @@ http://erikdubois.be/install-plank-linux-mint-17-3-set-preferences-add-themes-au
 
 
 
-5. Folder nemo-scripts
-------------------
-Move the content of the folder nemo-scripts to the hidden folder ~/.gnome2/nemo-scripts/
-and change to your liking. These are quick fixes and one backup script to a Backup folder.
+7. Folder nemo-scripts
+---------------------------
 
-But if you are using the <b>latest nemo</b> you have to place them in your home folder in 
-~/local/share/nemo/scripts. Nemo has an extra menu "Plugins".
+Check out in Nemo (filemanager or explorer in windows)
+
+	Edit/Plugins
+
+There you can post actions and plugins in the hidden folders.
+
+Move the content of the folder config_apps/nemo-scripts-plugins to the hidden folder 
+
+	~/.local/share/nemo/scripts
+
+and change to your liking. These are quick fixes and one backup script to a Backup folder.
 
 Or just follow the youtube movie to get more details about 3 scripts I have kept over the years.
 
@@ -281,7 +318,7 @@ Or just follow the youtube movie to get more details about 3 scripts I have kept
 
 
 
-6. Themes and Icons
+8. Themes and Icons
 -----------------
 
 The most fun goes in changing the look of your system. 
@@ -308,18 +345,20 @@ https://github.com/erikdubois/themes-icons-pack
 
 
 
-7. Mscore fonts
+9. Mscore fonts
 --------------------
 If you miss the microsoft fonts ... Verdana, Courrier, Comic, Arial, ...
 Use TAB and ENTER to install it.
 
 sudo apt-get install ttf-mscorefonts-installer -y
 
+Use TAB and ARROWS to navigate and ENTER to conclude.
 
 
 
 
-8. The matrix
+
+10. The matrix
 ----------------
 
 Matrix (screen with green letters as seen in the movie)
@@ -334,20 +373,7 @@ Try
 
 
 
-
-9. Samba or sharing folder over the network
-------------------------------------------
-
-And a specific script for samba (sharing of maps on your home network) if you need it. This script is NOT necessary. Linux Mint shares folders just fine. If you need a program to have an oversight of all the shared maps. This is the one. 
-
-	sudo apt-get install system-config-samba
-
-	or
-
-	- ./install-samba-vx.sh
-
-
-10.Shutter
+11.Shutter
 -----------
 
 Shutter is a program to make screenshots to post on websites.
@@ -355,7 +381,8 @@ There is also a very handy export function to different image hosting sites like
 
 In the program keyboard you can add a custom shortcut to take a picture like 
 
-printscreen or prtsc no many laptops
+printscreen or prtsc
+
 This should be the code to take a picture that will be named like this : 
 
 screenshot_25_01_2016_18:32:46.jpg
@@ -365,6 +392,8 @@ screenshot_25_01_2016_18:32:46.jpg
 
 
 
+# F  A  Q
+--------------------
 
 #What can you do if the script does not execute?
 
@@ -386,10 +415,6 @@ Then you can execute it by typing
 	./typeyourfilename
 
 
-# kernel 4.4 January 2016
-
-
-![Screenshots](http://i.imgur.com/oznlgJS.jpg)
 
 ------------------------------------
 #But that is the fun in Linux.
