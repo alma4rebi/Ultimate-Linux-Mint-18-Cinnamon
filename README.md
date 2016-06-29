@@ -264,7 +264,10 @@ At https://github.com/erikdubois/Aureola you can check out these conky's.
 
 5. ZSH and Oh-my-sh
 -----------------------
-I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script
+I like bash but I prefer zsh with lots of different theme to spice things up. So let us install that in the script.
+
+ZOOM IN to see that the colours and the look change in the terminal.
+Everytime a surprise. Because of the 'random'. Read on. 
 
 ![Screenshots](http://i.imgur.com/NUc55XO.png)
 
