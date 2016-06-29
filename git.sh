@@ -41,7 +41,7 @@
 # git config --global credential.helper 'cache --timeout=3600'
 
 
-# Force git to overwrite local fileson pull - no merge
+# Force git to overwrite local files on pull - no merge
 
 # git fetch all
 # git reset --hard orgin/master
