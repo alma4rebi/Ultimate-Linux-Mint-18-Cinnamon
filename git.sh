@@ -43,9 +43,15 @@
 # Below command will backup everything inside the project folder
 git add --all .
 
-# Committing to the local repository with a message containing the time details
+echo "####################################"
+echo "Write your commit comment!"
+echo "####################################"
+
+read input
+
+# Committing to the local repository with a message containing the time details and commit text
 curtime=$(date)
-git commit -m "Automatic Backup @ $curtime"
+git commit -m "Commit comment : $input on $curtime"
 
 # Push the local snapshot to a remote destination
 git push -u origin master
