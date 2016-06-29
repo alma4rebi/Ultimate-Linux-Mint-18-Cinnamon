@@ -254,6 +254,8 @@ This is an exercise in writing conky configurations in lua syntax.
 At https://github.com/erikdubois/Aureola you can check out these conky's.
 
 
+![Screenshots](http://i.imgur.com/97Q8RO1.jpg)
+
 
 5. ZSH and Oh-my-sh
 -----------------------
