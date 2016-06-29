@@ -40,6 +40,13 @@
 # git config --global credential.helper cache
 # git config --global credential.helper 'cache --timeout=3600'
 
+
+# Force git to overwrite local fileson pull - no merge
+
+# git fetch all
+# git reset --hard orgin/master
+
+
 # Below command will backup everything inside the project folder
 git add --all .
 
