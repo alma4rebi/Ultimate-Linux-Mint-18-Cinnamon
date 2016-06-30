@@ -71,11 +71,23 @@ The script will add a resource.
 
 The last months I have no issues with the drivers coming from Linux. So I do NOT install the Nvidia drivers.
 
+HAVE NOT TESTED THIS FOR A WHILE
+
 Nvidia drivers will <b>NOT</b> be installed as they are very specific to your hardware. But checkout the code.
+
+You can normally install nvidia drivers without any other source.
+
+Try typing this in the terminal
+
+
+	# sudo apt install nvidia    and then press on TAB
+
+
+If for some reason you want other sources for your drivers then check out these two.
 
 Copy/paste these lines in a terminal to get the latest nvidia drivers.
 
-	# sudo add-apt-repository -y ppa:xorg-edgers/ppa
+	# sudo add-apt-repository -y ppa:graphics-drivers/ppa
 	# sudo apt-get update
 	# sudo apt-get install nvidia-340 -y (for example)
 
