@@ -75,6 +75,7 @@
 
 git clone https://github.com/erikdubois/yltra-flat-icon-theme /tmp/Yltra-Flat
 cp -r /tmp/Yltra-Flat/* ~/.icons/
+rm -rf /tmp/Yltra-Flat
 
 
 
