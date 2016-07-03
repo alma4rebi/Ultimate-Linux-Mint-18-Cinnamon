@@ -87,6 +87,10 @@ wget http://downloads.sourceforge.net/project/sardi/sardi-icons-$version.tar.gz 
 cd /tmp/sardi
 tar -zxvf /tmp/sardi/sardi-icons-$version.tar.gz
 rm /tmp/sardi/sardi-icons-$version.tar.gz
+
+# if there is no hidden folder conky then make one
+[ -d $HOME"/./icons" ] || mkdir -p $HOME"/./icons"
+
 mkdir ~/.icons/
 cp -r /tmp/sardi/* ~/.icons/
 rm -rf /tmp/sardi
