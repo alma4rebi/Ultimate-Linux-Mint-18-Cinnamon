@@ -81,13 +81,17 @@
 # C O N K Y   A U R E O L A
 # from github
 
-
 # if there is already a folder, delete or else do nothing
 [ -d /tmp/aureola ] && rm -rf "/tmp/aureola" || echo ""
 # download the github in folder /tmp/aureola
 git clone https://github.com/erikdubois/Aureola /tmp/aureola
+
+# if there is no hidden folder autostart then make one
+[ -d $HOME"/./config/autostart" ] || mkdir -p $HOME"/.config/autostart"
+
 # if there is no hidden folder conky then make one
 [ -d $HOME"/./config/conky" ] || mkdir -p $HOME"/.config/conky"
+
 # if there is not hidden folder aureola then make one
 # my choice to put all config files in a hidden folder out of side
 [ -d "~/.aureola" ] || mkdir -p $HOME/".aureola"
@@ -95,12 +99,14 @@ git clone https://github.com/erikdubois/Aureola /tmp/aureola
 cp -r /tmp/aureola/* ~/.aureola
 
 # starting the standard conky so you can see it is working
-cp -r ~/.aureola/sys-info-mono-willemo/conky.conf ~/.config/conky
+cp ~/.aureola/sys-info-mono-willemo/* ~/.config/conky
+
 # making sure conky is started at boot
 cp start-conky.desktop ~/.config/autostart/start-conky.desktop
 
 #starting the conky 
 conky -c ~/.config/conky/conky.conf
+
 
 
 
