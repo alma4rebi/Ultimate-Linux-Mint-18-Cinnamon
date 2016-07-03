@@ -83,6 +83,19 @@
 
 # if there is already a folder, delete or else do nothing
 [ -d /tmp/aureola ] && rm -rf "/tmp/aureola" || echo ""
+
+#checking if git is installed else install it
+
+if ! location="$(type -p "git")" || [ -z "git" ]; then
+
+	echo "#################################################"
+	echo "installing curl for this script to work"
+	echo "#################################################"
+
+  	sudo apt install git
+fi
+
+
 # download the github in folder /tmp/aureola
 git clone https://github.com/erikdubois/Aureola /tmp/aureola
 
@@ -93,7 +106,7 @@ git clone https://github.com/erikdubois/Aureola /tmp/aureola
 [ -d $HOME"/./config/conky" ] || mkdir -p $HOME"/.config/conky"
 
 # if there is not hidden folder aureola then make one
-# my choice to put all config files in a hidden folder out of side
+# my choice to put all config files in a hidden folder out of sight
 [ -d "~/.aureola" ] || mkdir -p $HOME/".aureola"
 # copy all config files to this hidden folder
 cp -r /tmp/aureola/* ~/.aureola
@@ -103,6 +116,20 @@ cp ~/.aureola/sys-info-mono-willemo/* ~/.config/conky
 
 # making sure conky is started at boot
 cp start-conky.desktop ~/.config/autostart/start-conky.desktop
+
+killall  conky
+
+# checking if conky is installed else install it
+
+if ! location="$(type -p "conky")" || [ -z "conky" ]; then
+
+	echo "#################################################"
+	echo "installing curl for this script to work"
+	echo "#################################################"
+
+  	sudo apt install conky -y
+fi
+
 
 #starting the conky 
 conky -c ~/.config/conky/conky.conf
