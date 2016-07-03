@@ -102,7 +102,7 @@ echo "Let us check if your computer is up-to-date"
 # keep in mind that nvidia or ati drivers sometimes clash with the kernel
 # read the latest article on these matters at http://erikdubois.be
  
-wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-headers-4.6.3-040603-lowlatency_4.6.3-040603.201606241434_amd64.deb
+wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-headers-4.6.3-040603-generic_4.6.3-040603.201606241434_amd64.deb
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-headers-4.6.3-040603_4.6.3-040603.201606241434_all.deb
 wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6.3-yakkety/linux-image-4.6.3-040603-generic_4.6.3-040603.201606241434_amd64.deb
 
@@ -111,7 +111,7 @@ sudo dpkg -i linux*
 rm linux-*
 
 echo "Kernel is installed"
-echo "Files have been deleted"
+echo "Download files have been deleted"
 
 #ending
 #mkdir $HOME/Upload
