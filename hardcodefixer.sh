@@ -92,9 +92,9 @@ if ! foobar_loc="$(type -p "curl")" || [ -z "curl" ]; then
   	sudo apt install curl
 fi
 
-	echo "#################################################"
-	echo "Checking and changing all hardcoded icons"
-	echo "#################################################"
+echo "#################################################"
+echo "Checking and changing all hardcoded icons"
+echo "#################################################"
 
 sudo /tmp/hardcode-fixer/fix.sh
 

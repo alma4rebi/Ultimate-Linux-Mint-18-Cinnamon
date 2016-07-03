@@ -81,10 +81,10 @@
 # S A R D I
 # from sourceforge 
 
-wget http://downloads.sourceforge.net/project/sardi/sardi-icons-5.5-1.tar.gz -P /tmp/sardi
+wget http://downloads.sourceforge.net/project/sardi/sardi-icons-5.5-7.tar.gz -P /tmp/sardi
 cd /tmp/sardi
-tar -zxvf /tmp/sardi/sardi-icons-5.5-1.tar.gz
-rm /tmp/sardi/sardi-icons-5.5-1.tar.gz
+tar -zxvf /tmp/sardi/sardi-icons-5.5-7.tar.gz
+rm /tmp/sardi/sardi-icons-5.5-7.tar.gz
 mkdir ~/.icons/
 cp -r /tmp/sardi/* ~/.icons/
 rm -rf /tmp/sardi
