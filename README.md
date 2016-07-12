@@ -265,12 +265,17 @@ This is an exercise in writing conky configurations in lua syntax.
 
 At https://github.com/erikdubois/Aureola you can check out these conky's.
 
+![Screenshots](http://i.imgur.com/y92Jrp4.png)
+
 
 ![Screenshots](http://i.imgur.com/97Q8RO1.jpg)
 
+
 ![Screenshots](http://i.imgur.com/K5yYqEa.png)
 
+
 ![Screenshots](http://i.imgur.com/9CxuMRZ.png)
+
 
 
 
