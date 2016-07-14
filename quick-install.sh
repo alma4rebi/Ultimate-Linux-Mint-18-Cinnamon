@@ -58,12 +58,12 @@ sh conky-aurora-latest.sh
 
 sh icons-sardi-latest.sh
 sh icons-super-ultra-flat-numix-latest.sh
-sh icons-yltra-flat-latest.sh
+
 
 sh install-gtk-arc-theme-suse-latest.sh
-sh install-theme-arc-dark-latest.sh
 
 sh install-zsh-latest.sh
+sudo chsh erik -s /bin/zsh
 
 sh install-all-needed-software-latest.sh
 

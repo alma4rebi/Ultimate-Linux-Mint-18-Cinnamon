@@ -77,34 +77,47 @@
 
 
 
-
-# C O N K Y   A U R E O L A
-# from github
-
-# if there is already a folder, delete or else do nothing
+# if there is already a folder in tmp, delete or else do nothing
 [ -d /tmp/aureola ] && rm -rf "/tmp/aureola" || echo ""
-
-#checking if git is installed else install it
-
-if ! location="$(type -p "git")" || [ -z "git" ]; then
-
-	echo "#################################################"
-	echo "installing git for this script to work"
-	echo "#################################################"
-
-  	sudo apt install git -y
-fi
-
-
 # download the github in folder /tmp/aureola
-git clone https://github.com/erikdubois/Aureola /tmp/aureola
+
+echo "################################################################"
+echo "Checking if git is installed"
+echo "Install git for an easy installation"
 
 
-sh /tmp/aureola/get-aureola-from-github-to-local-drive.sh
-cd /tmp/aureola/acros/
-sh /tmp/aureola/acros/install-conky.sh
+	# G I T
+
+	# check if git is installed
+	if which git > /dev/null; then
+		echo "git was installed. Proceding..."
+
+		else
+
+		echo "################################################################"
+		echo "installing git for this script to work"
+		echo "################################################################"
+
+	  	sudo apt-get install git -y
+		  	
+	fi
+
+
 
 
 echo "################################################################"
-echo "###################    T H E   E N D      ######################"
+echo "Downloading the files from github to tmp directory"
+
+
+git clone https://github.com/erikdubois/Aureola /tmp/aureola
+
+sh /tmp/aureola/get-aureola-from-github-to-local-drive.sh
+
+cd ~/.aureola/acros
+sh ~/.aureola/acros/install-conky.sh
+
+rm -rf "/tmp/aureola"
+
+echo "################################################################"
+echo "end installing aureola"
 echo "################################################################"

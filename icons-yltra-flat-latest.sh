@@ -73,6 +73,28 @@
 
 # Y L T R A  F L A T  I C O N S
 
+echo "################################################################"
+echo "Checking if git is installed"
+echo "Install git for an easy installation"
+
+
+	# G I T
+
+	# check if git is installed
+	if which git > /dev/null; then
+		echo "git was installed. Proceding..."
+
+		else
+
+		echo "################################################################"
+		echo "installing git for this script to work"
+		echo "################################################################"
+
+	  	sudo apt-get install git -y
+		  	
+	fi
+
+
 git clone https://github.com/erikdubois/yltra-flat-icon-theme /tmp/Yltra-Flat
 cp -r /tmp/Yltra-Flat/* ~/.icons/
 rm -rf /tmp/Yltra-Flat
