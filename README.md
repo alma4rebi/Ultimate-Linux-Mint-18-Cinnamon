@@ -277,6 +277,14 @@ At https://github.com/erikdubois/Aureola you can check out these conky's.
 ![Screenshots](http://i.imgur.com/9CxuMRZ.png)
 
 
+![Screenshots](http://i.imgur.com/VgD9SqN.png)
+
+
+![Screenshots](http://i.imgur.com/NebHweL.png
+
+
+![Screenshots](http://i.imgur.com/r7C2W2E.png)
+
 
 
 5. ZSH and Oh-my-sh
