@@ -60,15 +60,16 @@ sh icons-sardi-latest.sh
 sh icons-super-ultra-flat-numix-latest.sh
 sh icons-yltra-flat-latest.sh
 
-sh install-gtk-arc-theme-latest.sh
+sh install-gtk-arc-theme-suse-latest.sh
 sh install-theme-arc-dark-latest.sh
 
 sh install-zsh-latest.sh
 
-sh install-all-needed-software-at-once-latest.sh
+sh install-all-needed-software-latest.sh
 
 sh hardcodefixer-latest.sh
 
 
+#sh install-cinnamon-latest.sh
 #sh update-to-the-last-stable-4.6.3-latest.sh
 
