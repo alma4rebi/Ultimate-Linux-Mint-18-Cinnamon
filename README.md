@@ -34,7 +34,7 @@ You have a choice.
 
 I choose to install the latter.
 
-	- ./update-to-the-last-stable-4.x-kernel-vx.sh 
+	- ./update-to-the-last-stable-4.6.3-latest.sh 
 
 Do not forget to type "./" in front of the name.
 
@@ -44,7 +44,7 @@ Go inside the folder and right-click <b>in a blank space</b> to go to the termin
 Type in the terminal
 
 	
-	- ./update-to-the-last-stable-4.x-kernel-vx.sh 
+	- ./update-to-the-last-stable-4.x.x-latest.sh 
 
 
 ![Screenshots](http://i.imgur.com/TM508XD.png)
@@ -102,7 +102,7 @@ Wait for the installation and reboot.
 
 We start the installation script of all the needed software in the same way as above. 
 
-	- ./install-all-needed-software-at-once-vx.sh
+	- ./install-all-needed-software-at-once-latest.sh
 
 Do not forget to type "./" in front of the name.
 
@@ -135,7 +135,7 @@ http://sourceforge.net/projects/sardi/
 
 For ease of installation I use the script
 
-	- icons-sardi-vx.sh
+	- icons-sardi-latest.sh
 
 
 
@@ -196,11 +196,11 @@ Super Ultra Flat Numix Remix will be updated not the Yltra Flat icon set.
 
 For ease of installation I use the script
 
-	- icons-super-ultra-flat-numix-vx.sh
+	- icons-super-ultra-flat-numix-latest.sh
 
 Also the older icon set can be installed via
 
-	-icons-yltra-flat-vx.sh
+	-icons-yltra-flat-latest.sh
 
 
 
@@ -296,7 +296,7 @@ Everytime a surprise. Because of the 'random'. Read on.
 
 ![Screenshots](http://i.imgur.com/NUc55XO.png)
 
-./install-zsh-vx.sh
+./install-zsh-latest.sh
 
 Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. You should change it into ZSH_THEME="random".
 
