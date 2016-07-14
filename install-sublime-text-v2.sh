@@ -53,20 +53,14 @@
 ############################################################################
 
 
-sh conky-aureola-quick-latest.sh
-sh conky-aurora-latest.sh
-sh icons-sardi-latest.sh
-sh icons-super-ultra-flat-numix-latest.sh
-sh icons-yltra-flat-latest.sh
-sh install-all-needed-software-at-once-latest.sh
-sh install-numix-latest.sh
-sh install-zsh-latest.sh
-sh hardcodefixer-latest.sh
-sh theme-arc-dark-install.sh
-<<<<<<< HEAD
-#sh update-to-the-last-stable-4.6.3-kernel-v2.sh
-=======
-sh update-to-the-last-stable-4.6.3-kernel-v2.sh
->>>>>>> c5afc2edf88166cca641485ecf3541cd7591c99c
+# Downloading and installing latest sublime text 3
+wget https://download.sublimetext.com/sublime-text_build-3114_amd64.deb
+sudo dpkg -i sublime-text_build-3114_amd64.deb
+rm sublime-text_build-3114_amd64.deb
+
+
+############################################################################
+
+#ending
 
 

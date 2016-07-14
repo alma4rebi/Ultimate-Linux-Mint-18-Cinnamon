@@ -72,14 +72,19 @@
 
 
 
-# repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
+# C O N K Y   A U R O R A
+# from sourceforge 
+
+wget https://sourceforge.net/projects/auroraconkytheme/files/Aurora_v3.0.4.tar.gz -P /tmp/aurora
+cd /tmp/aurora
+tar -zxvf /tmp/aurora/Aurora_v3.0.4.tar.gz
+rm /tmp/aurora/Aurora_v3.0.4.tar.gz
+echo "Hidden folder .conky is created if it is not there"
+[ -d "~/.conky" ] || mkdir -p $HOME/".conky"
+cp -r /tmp/aurora/* ~/.conky/
 
 
-# getting new info of this new repo
-sudo apt-get -y update
 
-# installing
-sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
-
-
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

@@ -1,4 +1,5 @@
-git#!/bin/bash 
+#!/bin/bash 
+
 ############################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -44,7 +45,9 @@ git#!/bin/bash
 # Force git to overwrite local files on pull - no merge
 
 # git fetch all
+
 # git push --set-upstream origin master
+
 # git reset --hard orgin/master
 
 
@@ -62,4 +65,7 @@ curtime=$(date)
 git commit -m "Commit comment : $input on $curtime"
 
 # Push the local snapshot to a remote destination
+
 git push -u origin master
+
+

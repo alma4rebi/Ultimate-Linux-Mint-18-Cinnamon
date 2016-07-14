@@ -71,15 +71,6 @@
 ##################################################################################################################
 
 
-
-# repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
-
-
-# getting new info of this new repo
-sudo apt-get -y update
-
-# installing
-sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
-
-
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+sudo apt-get update
+sudo apt-get install arc-theme

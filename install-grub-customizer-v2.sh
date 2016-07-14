@@ -70,16 +70,34 @@
 #
 ##################################################################################################################
 
+echo Let us check if your computer is up-to-date
+echo
+echo 
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get autoclean -y
+sudo apt-get autoremove -y
 
 
-# repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
+############################################################################
+
+# repo for grub-customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y
 
 
 # getting new info of this new repo
 sudo apt-get -y update
 
 # installing
-sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
+sudo apt-get install -y grub-customizer
 
 
+############################################################################
+
+#ending
+
+sudo apt-get -y update
+sudo apt-get -f -y install
+sudo apt-get -y upgrade
+sudo apt-get -y autoremove
+sudo apt-get -y autoclean

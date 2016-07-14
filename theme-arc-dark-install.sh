@@ -71,15 +71,18 @@
 ##################################################################################################################
 
 
+#https://github.com/horst3180/arc-theme
 
-# repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
+rm -rf arc-theme
+
+sudo apt-get install build-essential autoconf libgtk-3.0 libgtk-3-dev -y
+git clone https://github.com/horst3180/arc-theme --depth 1 && cd arc-theme
+./autogen.sh --prefix=/usr
+sudo make install
+
+# sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
 
 
-# getting new info of this new repo
-sudo apt-get -y update
-
-# installing
-sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
-
-
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

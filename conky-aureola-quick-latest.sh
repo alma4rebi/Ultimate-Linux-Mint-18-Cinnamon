@@ -22,9 +22,9 @@
 #
 ##################################################################################################################
 #
-# Current project : Ultimate-Linux-Mint-18
+# Current project : Conky aureola
 #
-# Source 	: 	https://github.com/erikdubois/Ultimate-Linux-Mint-18
+# Source 	: 	https://github.com/erikdubois/Aureola
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
@@ -71,15 +71,40 @@
 ##################################################################################################################
 
 
-
-# repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
-
-
-# getting new info of this new repo
-sudo apt-get -y update
-
-# installing
-sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
+########################################
+########        C O N K Y      #########
+########################################
 
 
+
+
+# C O N K Y   A U R E O L A
+# from github
+
+# if there is already a folder, delete or else do nothing
+[ -d /tmp/aureola ] && rm -rf "/tmp/aureola" || echo ""
+
+#checking if git is installed else install it
+
+if ! location="$(type -p "git")" || [ -z "git" ]; then
+
+	echo "#################################################"
+	echo "installing git for this script to work"
+	echo "#################################################"
+
+  	sudo apt install git -y
+fi
+
+
+# download the github in folder /tmp/aureola
+git clone https://github.com/erikdubois/Aureola /tmp/aureola
+
+
+sh /tmp/aureola/get-aureola-from-github-to-local-drive.sh
+cd /tmp/aureola/acros/
+sh /tmp/aureola/acros/install-conky.sh
+
+
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

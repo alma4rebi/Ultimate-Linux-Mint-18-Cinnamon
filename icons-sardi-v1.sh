@@ -71,15 +71,31 @@
 ##################################################################################################################
 
 
-
-# repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
-
-
-# getting new info of this new repo
-sudo apt-get -y update
-
-# installing
-sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
+########################################
+########        I C O N S      #########
+########################################
 
 
+
+
+# S A R D I
+# from sourceforge 
+
+version="5.6-0"
+
+wget http://downloads.sourceforge.net/project/sardi/sardi-icons-$version.tar.gz -P /tmp/sardi
+cd /tmp/sardi
+tar -zxvf /tmp/sardi/sardi-icons-$version.tar.gz
+rm /tmp/sardi/sardi-icons-$version.tar.gz
+
+# if there is no hidden folder conky then make one
+[ -d $HOME"/./icons" ] || mkdir -p $HOME"/.icons"
+
+cp -r /tmp/sardi/* ~/.icons/
+rm -rf /tmp/sardi
+
+
+
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

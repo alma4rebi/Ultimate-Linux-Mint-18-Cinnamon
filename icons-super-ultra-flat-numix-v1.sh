@@ -71,15 +71,14 @@
 ##################################################################################################################
 
 
+# Y L T R A  F L A T  I C O N S
 
-# repo for numix themes
-sudo add-apt-repository ppa:numix/ppa -y
-
-
-# getting new info of this new repo
-sudo apt-get -y update
-
-# installing
-sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
+git clone https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix /tmp/Super-Ultra-Flat-Numix-Remix
+cp -r /tmp/Super-Ultra-Flat-Numix-Remix/* ~/.icons/
+rm -rf /tmp/Super-Ultra-Flat-Numix-Remix
 
 
+
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
