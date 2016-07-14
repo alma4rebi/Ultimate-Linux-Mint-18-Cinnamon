@@ -1,4 +1,4 @@
-#!/bin/bash 
+git#!/bin/bash 
 ############################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -44,6 +44,7 @@
 # Force git to overwrite local files on pull - no merge
 
 # git fetch all
+# git push --set-upstream origin master
 # git reset --hard orgin/master
 
 
