@@ -106,8 +106,8 @@ echo "Install git for an easy installation"
 git clone https://github.com/Foggalong/hardcode-fixer /tmp/hardcode-fixer
 
 echo "################################################################"
-echo "Checking if git is installed"
-echo "Install git for an easy installation"
+echo "Checking if curl is installed"
+echo "Install curl for an easy installation"
 
 
 	# curl
