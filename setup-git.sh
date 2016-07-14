@@ -70,6 +70,21 @@
 #
 ##################################################################################################################
 
+
+#checking if git is installed else install it
+
+if ! location="$(type -p "git")" || [ -z "git" ]; then
+
+	echo "#################################################"
+	echo "installing git for this script to work"
+	echo "#################################################"
+
+  	sudo apt install git -y
+fi
+
+
+
+
 #setting up git
 #https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
@@ -83,7 +98,7 @@ git config --global push.default simple
 
 
 
-#git remote add origin https://github.com/erikdubois/Ultimate-Linux-Mint-18.git
+git remote add origin https://github.com/erikdubois/Ultimate-Linux-Mint-18.git
 
 
 echo " ALL  D O N E !"
