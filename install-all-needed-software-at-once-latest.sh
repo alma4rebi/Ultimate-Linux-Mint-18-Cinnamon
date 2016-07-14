@@ -70,13 +70,6 @@
 #
 ##################################################################################################################
 
-echo Let us check if your computer is up-to-date
-echo
-echo 
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get autoclean -y
-sudo apt-get autoremove -y
 
 
 ###############################################################################################
@@ -163,9 +156,9 @@ sudo apt-get install numix-gtk-theme numix-icon-theme-circle -y
 
 #ending
 mkdir $HOME/Upload
-sudo apt-get -y update
-sudo apt-get -f -y install
-sudo apt-get -y upgrade
-sudo apt-get -y autoremove
-sudo apt-get -y autoclean
+#sudo apt-get -y update
+#sudo apt-get -f -y install
+#sudo apt-get -y upgrade
+#sudo apt-get -y autoremove
+#sudo apt-get -y autoclean
 

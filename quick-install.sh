@@ -53,20 +53,22 @@
 ############################################################################
 
 
-sh conky-aureola-quick-latest.sh
+sh conky-aureola-latest.sh
 sh conky-aurora-latest.sh
+
 sh icons-sardi-latest.sh
 sh icons-super-ultra-flat-numix-latest.sh
 sh icons-yltra-flat-latest.sh
-sh install-all-needed-software-at-once-latest.sh
-sh install-numix-latest.sh
-sh install-zsh-latest.sh
-sh hardcodefixer-latest.sh
-sh theme-arc-dark-install.sh
-<<<<<<< HEAD
-#sh update-to-the-last-stable-4.6.3-kernel-v2.sh
-=======
-sh update-to-the-last-stable-4.6.3-kernel-v2.sh
->>>>>>> c5afc2edf88166cca641485ecf3541cd7591c99c
 
+sh install-gtk-arc-theme-latest.sh
+sh install-theme-arc-dark-latest.sh
+
+sh install-zsh-latest.sh
+
+sh install-all-needed-software-at-once-latest.sh
+
+sh hardcodefixer-latest.sh
+
+
+#sh update-to-the-last-stable-4.6.3-latest.sh
 
