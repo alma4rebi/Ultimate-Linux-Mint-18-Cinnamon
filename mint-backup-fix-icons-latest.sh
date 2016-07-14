@@ -54,9 +54,8 @@
 
 old="Icon=\/usr\/share\/pixmaps\/mintbackup\/icon.png"
 new="Icon=mintbackup"
-echo $old
-echo $new
-sudo sed -i  "s/$old/$new/g" /usr/share/applications/mintbackup.desktop
-
+#echo $old
+#echo $new
 sudo sed -i  "s/$old/$new/g" /usr/share/applications/mintbackup_mime.desktop
-
+old="Icon=\/usr\/share\/pixmaps\/mintbackup\/icon.svg"
+sudo sed -i  "s/$old/$new/g" /usr/share/applications/mintbackup.desktop
