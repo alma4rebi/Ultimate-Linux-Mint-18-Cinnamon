@@ -152,6 +152,7 @@ sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar
 #themes
 sudo apt-get install numix-gtk-theme numix-icon-theme-circle -y
 sudo apt-get install -y breeze-cursor-theme xcursor-themes
+sudo apt-get install vertex-theme -y
 
 ###############################################################################################
 
