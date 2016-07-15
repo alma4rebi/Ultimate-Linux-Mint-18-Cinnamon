@@ -71,16 +71,35 @@
 ##################################################################################################################
 
 
-#https://github.com/horst3180/arc-theme
+#https://github.com/shimmerproject/Blackbird
 
-rm -rf arc-theme
+echo "################################################################"
+echo "Checking if git is installed"
+echo "Install git for an easy installation"
 
-sudo apt-get install build-essential autoconf libgtk-3.0 libgtk-3-dev -y
-git clone https://github.com/horst3180/arc-theme --depth 1 && cd arc-theme
-./autogen.sh --prefix=/usr
-sudo make install
 
-# sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
+	# G I T
+
+	# check if git is installed
+	if which git > /dev/null; then
+		echo "git was installed. Proceding..."
+
+		else
+
+		echo "################################################################"
+		echo "installing git for this script to work"
+		echo "################################################################"
+
+	  	sudo apt-get install git -y
+		  	
+	fi
+
+
+git clone https://github.com/shimmerproject/Blackbird /tmp/Blackbird
+mkdir ~/.themes/Blackbird
+cp -r /tmp/Blackbird/* ~/.themes/Blackbird
+rm -rf /tmp/Blackbird
+
 
 
 echo "################################################################"
