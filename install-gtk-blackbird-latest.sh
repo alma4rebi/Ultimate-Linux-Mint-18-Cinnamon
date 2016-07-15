@@ -73,7 +73,7 @@
 
 #https://github.com/horst3180/arc-theme
 
-#rm -rf arc-theme
+rm -rf arc-theme
 
 sudo apt-get install build-essential autoconf libgtk-3.0 libgtk-3-dev -y
 git clone https://github.com/horst3180/arc-theme --depth 1 && cd arc-theme
