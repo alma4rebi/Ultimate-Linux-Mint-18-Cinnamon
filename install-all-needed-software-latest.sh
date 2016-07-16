@@ -142,6 +142,10 @@ sudo apt-get install -y boot-repair plank
 #sudo apt-get install -y  grub-customizer
 
 
+#operating specific software
+
+sudo apt-get install nemo-compare -y
+
 ###############################################################################################
 
 # installation of zippers and unzippers
