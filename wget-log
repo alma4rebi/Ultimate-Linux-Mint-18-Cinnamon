@@ -1,21 +1,0 @@
---2016-07-31 20:08:30--  https://sourceforge.net/projects/sardi/files/latest/download?source=files
-Resolving sourceforge.net (sourceforge.net)... 216.34.181.60
-Connecting to sourceforge.net (sourceforge.net)|216.34.181.60|:443... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: http://downloads.sourceforge.net/project/sardi/sardi-icons-7.2-5.tar.gz?r=&ts=1469988510&use_mirror=netassist [following]
---2016-07-31 20:08:30--  http://downloads.sourceforge.net/project/sardi/sardi-icons-7.2-5.tar.gz?r=&ts=1469988510&use_mirror=netassist
-Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 216.34.181.59
-Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.34.181.59|:80... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: http://netassist.dl.sourceforge.net/project/sardi/sardi-icons-7.2-5.tar.gz [following]
---2016-07-31 20:08:31--  http://netassist.dl.sourceforge.net/project/sardi/sardi-icons-7.2-5.tar.gz
-Resolving netassist.dl.sourceforge.net (netassist.dl.sourceforge.net)... 62.205.134.42, 2a01:d0:0:37::2
-Connecting to netassist.dl.sourceforge.net (netassist.dl.sourceforge.net)|62.205.134.42|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 21951317 (21M) [application/x-gzip]
-Saving to: ‘/tmp/sardi.tar.gz’
-
-/tmp/sardi.tar.gz    41%[=======>            ]   8,72M  2,63MB/s    eta 5s     /tmp/sardi.tar.gz    44%[=======>            ]   9,22M  2,56MB/s    eta 5s     /tmp/sardi.tar.gz    48%[========>           ]  10,09M  2,76MB/s    eta 5s     /tmp/sardi.tar.gz    52%[=========>          ]  11,06M  2,97MB/s    eta 5s     /tmp/sardi.tar.gz    58%[==========>         ]  12,28M  3,19MB/s    eta 5s     /tmp/sardi.tar.gz    59%[==========>         ]  12,45M  2,79MB/s    eta 3s     /tmp/sardi.tar.gz    63%[===========>        ]  13,25M  2,86MB/s    eta 3s     /tmp/sardi.tar.gz    67%[============>       ]  14,14M  2,95MB/s    eta 3s     /tmp/sardi.tar.gz    74%[=============>      ]  15,62M  3,20MB/s    eta 3s     /tmp/sardi.tar.gz    80%[===============>    ]  16,95M  3,37MB/s    eta 3s     /tmp/sardi.tar.gz    82%[===============>    ]  17,35M  3,28MB/s    eta 1s     /tmp/sardi.tar.gz    91%[=================>  ]  19,14M  3,52MB/s    eta 1s     /tmp/sardi.tar.gz    97%[==================> ]  20,50M  3,65MB/s    eta 1s     /tmp/sardi.tar.gz   100%[===================>]  20,93M  3,73MB/s    in 6,5s    
-
-2016-07-31 20:08:37 (3,25 MB/s) - ‘/tmp/sardi.tar.gz’ saved [21951317/21951317]
-
