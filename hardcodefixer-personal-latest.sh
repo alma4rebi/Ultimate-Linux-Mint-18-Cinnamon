@@ -54,17 +54,22 @@
 
 echo "fixing hardcoded icons"
 
-
+echo "fixing mintbackup_mime.desktop"
 old="Icon=\/usr\/share\/pixmaps\/mintbackup\/icon.png"
 new="Icon=mintbackup"
-location1="/usr/share/applications/mintbackup_mime.desktop"
-location2="/usr/share/applications/mintbackup.desktop"
-sudo sed -i  "s/$old/$new/g" $location1
-sudo sed -i  "s/$old/$new/g" $location2
+location="/usr/share/applications/mintbackup_mime.desktop"
+sudo sed -i  "s/$old/$new/g" $location
+echo "done"
 
+echo "fixing mintbackup.desktop"
+old="Icon=\/usr\/share\/pixmaps\/mintbackup\/icon.svg"
+new="Icon=mintbackup"
+location="/usr/share/applications/mintbackup.desktop"
+sudo sed -i  "s/$old/$new/g" $location
 echo "done"
 
 
+echo "fixing xed"
 old="Icon=accessories-text-editor"
 new="Icon=xed"
 location="/usr/share/applications/xed.desktop"
