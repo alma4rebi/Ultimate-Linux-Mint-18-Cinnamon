@@ -142,7 +142,14 @@ For ease of installation I use the script
 
 
 Some Examples!
+
 More documentation on http://erikdubois.be
+
+Follow the collection on google+.
+
+The most recent pictures can be found there.
+
+https://plus.google.com/u/0/collection/YFP-LB
 
 
 ![Screenshots](http://i.imgur.com/zEuHycm.png)
