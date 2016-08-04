@@ -38,7 +38,7 @@ You have a choice.
 
 I choose to install the latter.
 
-	- ./update-to-the-last-stable-4.6.3-latest.sh 
+	- ./update-to-the-last-stable-4.7-latest.sh 
 
 Do not forget to type "./" in front of the name.
 
@@ -51,7 +51,7 @@ Type in the terminal
 	- ./update-to-the-last-stable-4.x.x-latest.sh 
 
 
-![Screenshots](http://i.imgur.com/TM508XD.png)
+![Screenshots](http://i.imgur.com/UpNPxr6.jpg)
 
 
 <b>Cinnamon</b>
