@@ -210,8 +210,36 @@ Also the older icon set can be installed via
 
 
 
+3. Aureola Conky
+---------------
 
-3. Aurora Conky
+This is an exercise in writing conky configurations in lua syntax.
+
+At https://github.com/erikdubois/Aureola you can check out these conky's.
+
+![Screenshots](http://i.imgur.com/y92Jrp4.png)
+
+
+![Screenshots](http://i.imgur.com/97Q8RO1.jpg)
+
+
+![Screenshots](http://i.imgur.com/K5yYqEa.png)
+
+
+![Screenshots](http://i.imgur.com/9CxuMRZ.png)
+
+
+![Screenshots](http://i.imgur.com/VgD9SqN.png)
+
+
+![Screenshots](http://i.imgur.com/NebHweL.png)
+
+
+![Screenshots](http://i.imgur.com/r7C2W2E.png)
+
+
+
+4. Aurora Conky
 ---------------
 	
 
@@ -260,32 +288,6 @@ This github script is explained more in depth on my website.
 http://erikdubois.be/
 
 
-4. Aureola Conky
----------------
-
-This is an exercise in writing conky configurations in lua syntax.
-
-At https://github.com/erikdubois/Aureola you can check out these conky's.
-
-![Screenshots](http://i.imgur.com/y92Jrp4.png)
-
-
-![Screenshots](http://i.imgur.com/97Q8RO1.jpg)
-
-
-![Screenshots](http://i.imgur.com/K5yYqEa.png)
-
-
-![Screenshots](http://i.imgur.com/9CxuMRZ.png)
-
-
-![Screenshots](http://i.imgur.com/VgD9SqN.png)
-
-
-![Screenshots](http://i.imgur.com/NebHweL.png)
-
-
-![Screenshots](http://i.imgur.com/r7C2W2E.png)
 
 
 
@@ -309,6 +311,9 @@ Normally you need to go and find that hidden file .zshrc (CTRL+H) and edit it. Y
 Each time you start an other terminal you will get a different theme. It will surprise you every time.
 
 [![Showing zsh](http://i.imgur.com/gzK6c7j.jpg)](https://www.youtube.com/watch?v=T2Y_dp1STos "Showing zsh - Click to Watch!")
+
+
+
 
 
 6. Plank
