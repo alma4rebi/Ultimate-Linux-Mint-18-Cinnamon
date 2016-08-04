@@ -38,7 +38,7 @@ You have a choice.
 
 I choose to install the latter.
 
-	- ./update-to-the-last-stable-4.7-latest.sh 
+	- ./update-to-the-last-stable-4.x-latest.sh 
 
 Do not forget to type "./" in front of the name.
 
