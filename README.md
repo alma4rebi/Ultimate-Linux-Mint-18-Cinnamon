@@ -51,7 +51,7 @@ Type in the terminal
 	- ./update-to-the-last-stable-4.x.x-latest.sh 
 
 
-![Screenshots](http://i.imgur.com/UpNPxr6.jpg)
+![Screenshots](http://i.imgur.com/46pHNmX.jpg)
 
 
 <b>Cinnamon</b>
@@ -61,7 +61,7 @@ The very latest cinnamon version can be installed on your system.
 
 Run the script
 
-	- ./latest-cinnamon.sh
+	- ./install-cinnamon-latest.sh
 
 The script will add a resource.
 
