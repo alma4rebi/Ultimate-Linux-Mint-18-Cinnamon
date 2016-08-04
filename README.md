@@ -4,6 +4,10 @@ Let us first take a screenshot of the initial look of Linux Mint 18 Cinnamon
 
 ![Screenshots](http://i.imgur.com/RFfsxm6.jpg)
 
+Update your system. 
+
+![Screenshots](http://i.imgur.com/LcMjMBG.png)
+
 
 Ofcourse you can change the theme. I like the mint-y-dark theme which I will use in the later screenshots.
 
