@@ -124,8 +124,6 @@ The best of them
 
 
 
-[![Ultimate Linux Mint Update](http://i.imgur.com/qmOOZ8G.jpg)](https://www.youtube.com/watch?v=5xHy96K14Dk "Ultimate Linux Mint Update - Click to Watch!")
-
 
 #3 Extra's
 
