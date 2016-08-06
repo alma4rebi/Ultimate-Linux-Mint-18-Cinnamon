@@ -127,7 +127,7 @@ rm sublime-text_build-3114_amd64.deb
 #software from 'normal' repositories
 sudo apt-get install -y catfish clementine curl dropbox evolution focuswriter frei0r-plugins geary gpick
 sudo apt-get install -y glances gparted hardinfo inkscape kazam nemo-dropbox
-sudo apt-get install -y openshot ppa-purge screenruler screenfetch scrot shutter slurm
+sudo apt-get install -y openshot ppa-purge radiotray screenruler screenfetch scrot shutter slurm
 sudo apt-get install -y terminator thunar variety vlc vnstat winbind  
 
 #software out of selection
